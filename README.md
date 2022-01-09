@@ -10,7 +10,7 @@ GPUGraph
 
 CPU Heavy Fractal
 
-Fractal
+And Fractal
 
 Graph is the original shape maker. It can create up to 5 shapes using a bunch of cubes as pseudo voxels.
 
