@@ -1,5 +1,7 @@
 # Unity 3d Performance
- Animated Graph but with some serious performance enhancing drugs.
+Animated Graph but with some serious performance enhancing drugs.
+
+I do not know if HLSL works in Linux or Mac.
 
 A better explanation:
 
