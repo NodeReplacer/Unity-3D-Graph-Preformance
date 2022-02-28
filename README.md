@@ -20,7 +20,7 @@ It looks great actually.
 GPUGraph pushes the calculation for each cube in world space (and their transforms) onto a Compute Shader and lets the GPU's specialized computer handle
 the heavy lifting.
 
-This enables us to have up to one million points in the wave. It's less attractive because moiré patterns show up all over it. But it runs reasonably well.
+This enables us to have up to one million points in the wave. It's less attractive because moiré patterns show up all over it. But it runs reasonably well. (The original Graph cannot run even close to this number of cubes before the framerate starts dying. Using the profiler will reveal that the bottleneck is on the CPU end)
 
 CPU Heavy Fractal is a whole new animal. It creates a fractal shape, but its taxing on the CPU. DO NOT GO OVER DEPTH 5 OR 6. I've tried to and it crashes out.
 
