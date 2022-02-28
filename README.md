@@ -3,7 +3,8 @@
 
 A better explanation:
 
-There are 4 objects of note:
+There are 4 objects/scenes of note:
+
 Graph
 
 GPUGraph
