@@ -25,7 +25,7 @@ This enables us to have up to one million points in the wave. It's less attracti
 CPU Heavy Fractal is a whole new animal. It creates a fractal shape, but its taxing on the CPU. DO NOT GO OVER DEPTH 5 OR 6. I've tried to and it crashes out.
 
 Fractal is the big one, it pushes the generation of the fractal shape onto the ComputeShader and procedurally draws everything. This takes the load off of the CPU in a big way.
-Also uses Unity's burst compiling to utilize the CPUs parallelization. You can safely go over depth 6 on the game object, but 7 and 8 are still taxing,
+Also uses Unity's burst compiling to utilize the CPUs parallelization. You can safely go over depth 6 on the game object, bear in mind that this will still be taxing on the GPU and CPU. This is simply due to the nature of fractal shapes.
 
 There's a bit of freezing up at the start when I try to run this in the editor. It's most likely because I had the burst compiling perform synchronously instead of its usual on-demand shader esque compiling.
 
