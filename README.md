@@ -21,7 +21,7 @@ Graph is a copy of Animated-Graph which is a different repository. It can create
 
 It looks great actually.
 
-GPUGraph pushes the calculation for each cube in world space (and their transforms) onto a Compute Shader and lets the GPU's specialized computer handle the heavy lifting concerning the position of the cube due to the mathematical nature of each animation.
+GPUGraph pushes the calculation for each cube in world space (and their transforms) onto a Compute Shader and lets the GPU's specialized computer handle the heavy lifting concerning the position of the cube due to the mathematical nature of each animation. They are just multiple waves interacting with each other.
 
 This enables us to have up to one million points (cubes) in the wave. It's less attractive because moiré patterns show up at that resolution. But it runs reasonably well. (The original Graph cannot run even close to this number of cubes before the framerate starts dying. Using the Unity profiler will reveal that the bottleneck is on the CPU end.)
 
