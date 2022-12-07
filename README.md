@@ -1,5 +1,5 @@
 # Unity 3d Performance
-A repeat of Animated Graph (A previosu project) but with some serious performance enhancing drugs.
+A repeat of Animated Graph (A previous project) but with some serious performance enhancing drugs.
 
 A better explanation:
 
