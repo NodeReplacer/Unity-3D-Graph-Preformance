@@ -6,6 +6,8 @@ A repeat of Animated Graph (A previous project) but with some serious performanc
 
 A better explanation:
 
+Utilized the Unity profiler to track down where the bottlenecks in my code were. It was mainly CPU bound so I just pushed the math jobs to the GPU through the CompouteShader. This improved the framerate into the 200s as opposed to the state it was in before.
+
 There are 4 objects/scenes of note:
 
 - Graph
